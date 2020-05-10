@@ -1,0 +1,11 @@
+/* pages/home/childComps/w-cateItems/w-cateItems.wxss */
+.cate{
+  display: flex;
+}
+.cate-items{
+  flex: 1;
+  padding: 20rpx;
+}
+.cate-items image{
+  width: 100%;
+}

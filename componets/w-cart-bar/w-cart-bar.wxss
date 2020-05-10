@@ -1,0 +1,38 @@
+/* componets/w-cart-bar/w-cart-bar.wxss */
+page{
+  padding-bottom: 98rpx;
+}
+.cart-tools-bar{
+  height: 98rpx;
+  width: 100%;
+}
+.cart-tools-bar-wrapper{
+  width: 100%;
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom:0rpx;
+  height: 98rpx;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+}
+.cart-tools-bar-wrapper .cart-tools-bar-item{
+  flex: 1;
+}
+.iconfont{
+  height: 50rpx;
+  color: red;
+}
+.add-cart{
+  background-color: red;
+}
+.buy{
+  background-color: yellow;
+}
+.add-cart,.buy{
+  height: 98rpx;
+  color: white;
+  line-height: 96rpx;
+  font-weight: 700;
+}

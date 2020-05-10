@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-detail-swiper":"./childComps/detail-swiper/w-detail-swiper"
+  },
+  "navigationBarTitleText": "商品详情页"
+}

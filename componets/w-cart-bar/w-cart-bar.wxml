@@ -1,0 +1,23 @@
+<!--componets/w-cart-bar/w-cart-bar.wxml-->
+<view class="cart-tools-bar">
+    <view class="cart-tools-bar-wrapper">
+           <view class="cart-tools-bar-item kefu">
+                <view class="iconfont icon-fuwupingjia-kefu">1</view>
+                <view class="icon-text">联系客服</view>
+           </view>
+            <view class="cart-tools-bar-item share">
+                <view class="iconfont icon-fenxiang">1</view>
+                <view class="icon-text">分享</view>
+           </view>
+            <view class="cart-tools-bar-item cart">
+                <view class="iconfont icon-cart1">1</view>
+                <view class="icon-text">购物车</view>
+           </view>
+            <view class="cart-tools-bar-item add-cart">
+                <view class="icon-text">加入购物车</view>
+           </view>
+            <view class="cart-tools-bar-item buy">
+                <view class="icon-text">立即购买</view>
+           </view>
+    </view>
+</view>

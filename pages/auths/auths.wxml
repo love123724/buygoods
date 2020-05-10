@@ -1,0 +1,2 @@
+<!--pages/auths/auths.wxml-->
+<button open-type="getUserInfo" bind:getuserinfo="handleBtnClick" type="primary" plain>获取权限</button>

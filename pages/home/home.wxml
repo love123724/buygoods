@@ -1,0 +1,20 @@
+<!--pages/home/home.wxml-->
+<page>
+<!--搜索框开始-->
+<w-search />
+<!--搜索框结束-->
+
+
+<!--轮播图开始-->
+<w-swiper banners="{{banners}}"/>
+<!--轮播图结束-->
+
+
+<!--导航开始-->
+<w-cateItems cateItems="{{cateLists}}"/>
+<!--导航结束-->
+
+<!--楼层开始-->
+<w-floor floorData="{{floorData}}"/>
+<!--楼层结束-->
+</page>

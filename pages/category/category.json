@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-search":"/componets/w-search/w-search"
+  },
+  "navigationBarTitleText": "分类"
+}

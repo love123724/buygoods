@@ -1,0 +1,11 @@
+<!--pages/home/childComps/w-cateItems/w-cateItems.wxml-->
+<view class="cate">
+<block wx:for="{{cateItems}}" wx:key="index">
+<navigator class="cate-items">
+<navigator url="/pages/category/category" open-type="switchTab">
+<image src="{{item.image_src}}" mode="widthFix"/>
+</navigator>
+
+</navigator>
+</block>
+</view>

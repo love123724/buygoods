@@ -1,0 +1,127 @@
+/* pages/profile/profile.wxss */
+page{
+  background-color: gray;
+}
+.user-info{
+  height: 45vh;
+  position: relative;
+}
+.user-info .user-bgm{
+  height: 45vh;
+}
+.user-bgm image{
+  height: 100%;
+  filter: blur(10rpx);
+}
+.user-content {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+}
+.user-content image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-bottom: 10rpx;
+}
+.user-content .content-name{
+  font-size: 30rpx;
+  margin-left: 18rpx;
+  color: white;
+}
+.user-info2{
+  height:45vh;
+  background-color: red;
+  position: relative;
+}
+.login{
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 98rpx;
+  text-align: center;
+  border:2rpx solid green;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  color: white;
+  transform: translateX(-50%);
+}
+
+.profile-content{
+  position: relative;
+  margin: 0 30rpx;
+  left: 0;
+  top: -10rpx;
+  
+  z-index: 999;
+
+}
+.profile-content .foot-ji{
+  display: flex;
+  height: 88rpx;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  
+}
+.foot-ji .ji-item{
+  flex: 1;
+  padding:10rpx 0;
+}
+.ji-item .text{
+ color: black;
+}
+.ji-item .num{
+  
+  color: var(--themeColor);
+}
+.order{
+  background-color: white;
+  margin-top: 20rpx;
+}
+.order .order-desc{
+    height: 66rpx;
+    line-height: 64rpx;
+    padding-left: 10rpx;
+    border-bottom: 2rpx solid gray;
+}
+.order .order-content{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.order-content .order-item{
+  flex: 1;
+  height: 88rpx;
+  margin-top: 8rpx;
+}
+.address-wrap{
+  background-color: white;
+  height: 88rpx;
+  line-height: 86rpx;
+  margin-top: 10rpx;
+  padding-left: 10rpx;
+}
+
+.app-info-warp .info-item{
+height: 88rpx;
+background-color: white;
+line-height: 86rpx;
+margin-top: 6rpx;
+padding-left: 10rpx;
+}
+.app-recommend{
+  height: 88rpx;
+background-color: white;
+line-height: 86rpx;
+padding-left: 10rpx;
+margin-top: 10rpx;
+}
+button{
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding-left: 0;
+  font-size: 30rpx;
+}

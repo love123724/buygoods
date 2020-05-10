@@ -1,0 +1,25 @@
+<!--pages/goods-list/goods-list.wxml-->
+<view class="goods-list">
+<w-search/>
+<w-tab-control titles="{{titles}}"/>
+
+<view class="goods-list-content">
+        <block wx:for="{{goodsList}}" wx:key="goods_id">
+              <view class="goods-list-content-wrapper">
+                 <navigator url="/pages/goods-detail/goods-detail?gid={{item.goods_id}}">
+                  <view class="goods-image">
+                          <image src="{{item.goods_small_logo?item.goods_small_logo:'/assets/goods-list/wuf.jpg'}}" mode="widthFix"></image>
+                  </view>
+                <view class="goods-desc">
+                   <view class="desc-title">{{item.goods_name}}</view>
+                    <view class="desc-price">¥{{item.goods_price}}</view>
+                </view>
+                 </navigator>
+            
+              </view>
+        </block>
+</view>
+
+
+
+</view>

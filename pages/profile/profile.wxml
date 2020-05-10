@@ -1,0 +1,79 @@
+<!--pages/profile/profile.wxml-->
+<view class="user-info" wx:if="{{userInfo.nickName}}">
+   <view class="user-bgm">
+        <image src="{{userInfo.avatarUrl}}" ></image>
+   </view>
+   <view class="user-content">
+     <view class="content-img">
+       <image src='{{userInfo.avatarUrl}}' ></image>
+     </view>
+     <view class="content-name">{{userInfo.nickName}}</view>
+   </view>
+</view>
+<view class="user-info2" wx:else>
+  <navigator class="login" url="/pages/login/login">登入</navigator>
+</view>
+
+<view class="profile-content">
+  <view class="foot-ji">
+   <navigator class="ji-item">
+    <view class="num">0</view>
+    <view class="text">收藏的店铺</view>
+   </navigator>
+    <navigator class="ji-item">
+    <view class="num">{{colletNums}}</view>
+    <view class="text">收藏的商品</view>
+   </navigator>
+    <navigator class="ji-item">
+    <view class="num">0</view>
+    <view class="text">关注的商品</view>
+   </navigator>
+    <navigator class="ji-item">
+     <view class="num">0</view>
+    <view class="text">我的足迹</view>
+   </navigator>
+   
+   </view>
+    <view class="order">
+      <view class="order-desc">我的订单</view>
+      <view class="order-content">
+          <navigator class="order-item">
+              <view class="iconfont icon-logooo_huabanfuben"></view>
+              <view class="text">全部订单</view>
+          </navigator>
+           <navigator class="order-item">
+              <view class="iconfont icon-fukuantongzhi"></view>
+              <view class="text">代付款</view>
+          </navigator>
+           <navigator class="order-item">
+              <view class="iconfont icon-huoche"></view>
+              <view class="text">待收货</view>
+          </navigator>
+           <navigator class="order-item">
+              <view class="iconfont icon-tuihuo"></view>
+              <view class="text">退款/退货</view>
+          </navigator>
+      </view>
+     
+   
+  </view>
+  <view class="address-wrap">
+      收货地址
+   </view>
+  <view class="app-info-warp">
+     <view class="info-item">
+          <text>联系客服</text>
+          <text>400400400</text>
+     </view>
+     <view class="info-item">
+       <button open-type="feedback">意见反馈</button>
+     </view>
+     <view class="info-item">
+         关于我们
+     </view>
+  </view>
+  <view class="app-recommend">
+    把应用推荐给其他人
+  </view>
+</view>
+

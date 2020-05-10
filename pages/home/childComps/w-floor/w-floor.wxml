@@ -1,0 +1,24 @@
+<!--pages/home/childComps/w-floor/w-floor.wxml-->
+<view class="floor">
+<block wx:for="{{floorData}}"
+       wx:for-item="floor" 
+       wx:for-index="floorIndex" 
+       wx:key="floorIndex">
+<view class="floor-content">
+  <view class="floor-content-title">
+   <image src="{{floor.floor_title.image_src}}" mode="widthFix"/>
+  </view> 
+ <block wx:for="{{floor.product_list}}"
+         wx:for-item="product" 
+         wx:for-index="productIndex" 
+         wx:key="productIndex">
+    <view class="floor-content-list">
+     <navigator class="product" url="{{product.navigator_url}}"><image src="{{product.image_src}}" mode="{{productIndex==0?'widthFix':'scaleToFill'}}"/></navigator>
+    </view>
+   
+    
+  </block>
+</view>
+
+</block>
+</view>

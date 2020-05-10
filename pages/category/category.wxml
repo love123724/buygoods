@@ -1,0 +1,32 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+<w-search/>
+<view class="category-content">
+<scroll-view scroll-y class="left-menu">
+<block wx:for="{{leftMenu}}" wx:key="*this"  >
+ <view class="left-menu-item {{currentIndex===index? 'active':''}}" bind:tap="menuClick" data-index="{{index}}">{{item}}</view>
+</block>
+</scroll-view>
+<scroll-view scroll-y scroll-top="{{scrollTop}}" class="right-content">
+
+<block wx:for="{{rightContent}}" wx:key="index" wx:for-item="item1" wx:for-index="index1">
+<view class="title">
+<text class="delimiter">/</text>
+<text class="title-text">{{item1.cat_name}}</text>
+<text class="delimiter">/</text>
+</view>
+<view class="goods-list">
+<block wx:for="{{item1.children}}" wx:key="*this" wx:for-item="item2" wx:for-index="index2">
+      <navigator url="/pages/goods-list/goods-list?cid={{item2.cat_id}}">
+        <image src="{{item2.cat_icon?item2.cat_icon:'http://img.zcool.cn/community/017bcb58b4db5fa801219c7719b5ff.jpg'}}" mode="widthFix"/>
+        <view class="content-list-text">{{item2.cat_name}}</view>
+      </navigator> 
+</block>
+</view>
+</block>
+
+</scroll-view>
+
+</view>
+
+</view>

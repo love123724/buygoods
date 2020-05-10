@@ -1,0 +1,47 @@
+<!--pages/goods-detail/goods-detail.wxml-->
+<w-detail-swiper banners="{{pics}}"/>
+
+<view class="banners-desc">
+      <view class="desc-price">¥{{goods_price}}</view>
+      <view class="desc-text">
+         <view class="left">{{goods_name}}</view>
+            <view class="right">
+               <view class="iconfont {{isCollect?'icon-shoucang1':'icon-shoucang'}}" bindtap="collectClick"></view>
+               <view class="icon-text">收藏</view>
+            </view>
+      </view>
+</view>
+
+<view class="pci_desc">
+<view class="title">图文详解</view>
+<rich-text nodes="{{goods_introduce}}"></rich-text>
+</view>
+
+
+<view class="cart-tools-bar">
+    <view class="cart-tools-bar-wrapper">
+           <view class="cart-tools-bar-item kefu">
+                <view class="iconfont icon-fuwupingjia-kefu"></view>
+                <view class="icon-text">联系客服</view>
+                <button class="btn" open-type="contact"></button>
+           </view>
+            <view class="cart-tools-bar-item share">
+                <view class="iconfont icon-fenxiang"></view>
+                <view class="icon-text">分享</view>
+                 <button class="btn" open-type="share"></button>
+           </view>
+            <navigator class="cart-tools-bar-item cart" url="/pages/cart/cart" open-type="switchTab">
+                <view class="iconfont icon-cart1"></view>
+                <view class="icon-text">购物车</view>
+           </navigator>
+            <view class="cart-tools-bar-item add-cart" bindtap="addCart">
+                <view class="icon-text">加入购物车</view>
+           </view>
+            <view class="cart-tools-bar-item buy">
+                <view class="icon-text">立即购买</view>
+           </view>
+    </view>
+</view>
+
+
+ 

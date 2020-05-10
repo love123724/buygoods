@@ -1,0 +1,7 @@
+/* pages/goods-detail/childComps/detail-swiper/w-detail-swiper.wxss */
+.swiper{
+  height:100vw;
+}
+.swiper-item image{
+  width: 100%;
+}

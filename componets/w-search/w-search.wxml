@@ -1,0 +1,4 @@
+<!--componets/w-search/w-search.wxml-->
+<view class="search-input">
+<navigator url="/pages/search/search">搜索</navigator>
+</view>

@@ -1,0 +1,32 @@
+/* pages/search/search.wxss */
+page{
+  background-color: gray;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.search_btn-row{
+  display: flex;
+  padding-top: 20rpx;
+  height: 90rpx;
+  margin-bottom: 30rpx;
+}
+.search_btn-row  input{
+ background-color: white;
+ height: 88rpx;
+ flex:1;
+ padding-left: 10rpx;
+}
+.search_btn-row button{
+    font-size: 24rpx;
+   
+    height: 88rpx;
+    line-height: 86rpx;
+    margin-left: 10rpx;
+}
+.search-item{
+  background-color: white;
+  height: 90rpx;
+  margin: 20rpx 0;
+   padding-top: 10rpx;
+  padding-left:10rpx;
+}

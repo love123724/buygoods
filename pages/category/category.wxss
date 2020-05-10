@@ -1,0 +1,46 @@
+/* pages/category/category.wxss */
+.category{
+  height:100%
+}
+.category-content{
+  display: flex;
+  height: calc(100vh - 90rpx);
+}
+.left-menu{
+  flex: 2;
+ 
+}
+.left-menu-item{
+  height: 80rpx;
+  text-align: center;
+  line-height: 78rpx;
+}
+.right-content{
+  flex: 5;
+  
+}
+.title{
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title .delimiter{
+  color:#666;
+  padding:0 10rpx;
+}
+.goods-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.goods-list navigator{
+  width: 33.3%;
+  text-align: center;
+}
+.goods-list navigator image{
+  width: 50%;
+}
+.active{
+  color: var(--themeColor);
+  border-right: 6rpx solid #eb4450;
+}

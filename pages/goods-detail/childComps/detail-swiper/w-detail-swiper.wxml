@@ -1,0 +1,8 @@
+<!--pages/goods-detail/childComps/detail-swiper/w-detail-swiper.wxml-->
+<swiper class="swiper" circular interval="2000" autoplay indicator-dots>
+<block wx:for="{{banners}}" wx:key="pics_id">
+<swiper-item class="swiper-item">
+<image src="{{item.pics_mid}}" mode="widthFix" bindtap="handleImageClick" data-currentUrl="{{item.pics_mid}}"></image>
+</swiper-item>
+</block>
+</swiper>

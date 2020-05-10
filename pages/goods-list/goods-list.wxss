@@ -1,0 +1,28 @@
+/* pages/goods-list/goods-list.wxss */
+.goods-list-content-wrapper{
+  border-bottom: 6rpx solid gray;
+}
+.goods-list-content-wrapper navigator{
+  display: flex;
+  
+}
+.goods-list-content-wrapper .goods-image{
+  flex:2;
+  
+}
+.goods-image image{
+   width: 100%;
+}  
+.goods-list-content-wrapper .goods-desc{
+  flex:3;
+  padding-bottom: 30rpx;
+  padding-top: 60rpx;
+  padding-left: 30rpx;
+}
+.goods-desc .desc-title{
+ margin-bottom: 60rpx;
+
+}
+.goods-desc .desc-price{
+  color: var(--themeColor);
+}
