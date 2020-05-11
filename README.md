@@ -75,4 +75,5 @@
 ```
 
 ## 效果图
-![截图](https://note.youdao.com/yws/api/personal/file/WEB1d01610b00552f291418c6f05f8b19c7?method=getImage&version=4&cstk=Ef_4NXv-)
+![首页](http://m.qpic.cn/psc?/V11fyEKe3iAPlm/JrH0YF1q0ixQX3HL9y*6khO62xa3DcXuypjJGc22TZblaKqjUY.AN65W.T1Wn7kzp9WAY0fRHDThLLlMjopCaQ!!/mnull&bo=DgHkAQAAAAADB8g!&rf=photolist&t=5)
+
