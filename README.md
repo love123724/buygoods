@@ -75,4 +75,4 @@
 ```
 
 ## 效果图
-![image](http://github.com/love123724/buygoods/raw/master/assets/goods-list/wuf.jpg)
+![截图] (https://note.youdao.com/yws/api/personal/file/WEB1d01610b00552f291418c6f05f8b19c7?method=getImage&version=4&cstk=Ef_4NXv-)
