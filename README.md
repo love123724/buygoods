@@ -75,4 +75,4 @@
 ```
 
 ## 效果图
-![image](http://github.com/love123724/buygoods/assets/goods-list/wuf.jpg)
+![image](http://github.com/love123724/buygoods/raw/master/assets/goods-list/wuf.jpg)
